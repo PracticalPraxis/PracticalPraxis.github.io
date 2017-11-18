@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Programming
+title: Programing
 ---
 
 ## Regular updates on my coding work.
