@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-11-18T16:39:28+00:00</updated><id>http://localhost:4000/</id><title type="html">Practical Praxis</title><subtitle>Happy Birthday Mum!</subtitle><author><name>Practical Praxis</name></author><entry><title type="html">Fast Inverse Square Root</title><link href="http://localhost:4000/programing/2017/11/18/Fast-Inverse-Square-Root.html" rel="alternate" type="text/html" title="Fast Inverse Square Root" /><published>2017-11-18T00:00:00+00:00</published><updated>2017-11-18T00:00:00+00:00</updated><id>http://localhost:4000/programing/2017/11/18/Fast-Inverse-Square-Root</id><content type="html" xml:base="http://localhost:4000/programing/2017/11/18/Fast-Inverse-Square-Root.html">&lt;p&gt;The Fast Inverse Square Root hack is an amazing piece of computer science hackery&lt;/p&gt;
+
+&lt;p&gt;This article asusmes you have numpy installed. If you don’t, it’s super easy to do&lt;/p&gt;
+
+&lt;p&gt;The main function can be defined as the following&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def numpy_isqrt(number):
+    threehalfs = 1.5
+    x2 = number * 0.5
+    y = np.float32(number)
+    
+    i = y.view(np.int32)
+    i = np.int32(0x5f3759df) - np.int32(i &amp;gt;&amp;gt; 1)
+    y = i.view(np.float32)
+    
+    y = y * (threehalfs - (x2 * y * y))
+    return float(y)
+
+number = float(input('Value:' ))
+print (numpy_isqrt(number))
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Practical Praxis</name></author><summary type="html">The Fast Inverse Square Root hack is an amazing piece of computer science hackery This article asusmes you have numpy installed. If you don’t, it’s super easy to do The main function can be defined as the following def numpy_isqrt(number): threehalfs = 1.5 x2 = number * 0.5 y = np.float32(number) i = y.view(np.int32) i = np.int32(0x5f3759df) - np.int32(i &amp;gt;&amp;gt; 1) y = i.view(np.float32) y = y * (threehalfs - (x2 * y * y)) return float(y) number = float(input('Value:' )) print (numpy_isqrt(number))</summary></entry><entry><title type="html">Breaking Britain</title><link href="http://localhost:4000/politics/2017/11/18/Breaking-Britain.html" rel="alternate" type="text/html" title="Breaking Britain" /><published>2017-11-18T00:00:00+00:00</published><updated>2017-11-18T00:00:00+00:00</updated><id>http://localhost:4000/politics/2017/11/18/Breaking-Britain</id><content type="html" xml:base="http://localhost:4000/politics/2017/11/18/Breaking-Britain.html">&lt;p&gt;&lt;img src=&quot;/assets/jpg/Theresa_Confused.jpg&quot; alt=&quot;Leader of the World's 5th Most Powerful Nation&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;may-she-leave-now&quot;&gt;May She Leave Now?&lt;/h2&gt;
+
+&lt;p&gt;The trajectory of the current British government implies that we will very soon be seeing an end to Britain’s
+second ever female leader of state. Between her own personal gaffes and miscalculations, from her general election
+floundering to her poor bluff at a hard Brexit, Theresa May’s tensure will by no stretch be remembered as a successful one.&lt;/p&gt;
+
+&lt;h2 id=&quot;corbyn-ocylypse&quot;&gt;Corbyn-ocylypse&lt;/h2&gt;
+&lt;p&gt;So who will succeed her? At the current rate, the leadership of the Conservative party appears to many to be a poisoned chalice.
+Neither Johnson, Gove, Leadsom or Mogg are eager to take the imminent battering that the position is currently hurtling toward.&lt;/p&gt;
+
+&lt;p&gt;This naturally presents a brilliant oppourtunity for the opposition - Jeremy Corbyn. Corbyn is nothing less than an existentalist threat
+to the running of all British politics in the last 30 years.&lt;/p&gt;</content><author><name>Practical Praxis</name></author><summary type="html">May She Leave Now? The trajectory of the current British government implies that we will very soon be seeing an end to Britain’s second ever female leader of state. Between her own personal gaffes and miscalculations, from her general election floundering to her poor bluff at a hard Brexit, Theresa May’s tensure will by no stretch be remembered as a successful one. Corbyn-ocylypse So who will succeed her? At the current rate, the leadership of the Conservative party appears to many to be a poisoned chalice. Neither Johnson, Gove, Leadsom or Mogg are eager to take the imminent battering that the position is currently hurtling toward. This naturally presents a brilliant oppourtunity for the opposition - Jeremy Corbyn. Corbyn is nothing less than an existentalist threat to the running of all British politics in the last 30 years.</summary></entry></feed>
