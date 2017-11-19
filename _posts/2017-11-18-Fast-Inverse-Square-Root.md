@@ -5,12 +5,13 @@ categories: Programing
 excerpt_separator:  <!--more-->
 ---
 
-The Fast Inverse Square Root (FISR) hack is an amazing piece of computer science history that centres on a quicker implementation of the x^(1/n) (or 1 divided by the root of x). This is a common computation needed in graphics programing for finding the distanc between two vectors.  FISR manages to approximate this operation by simple subtraction and multipcation, using the 'magical' number 0x5f3759df. How this is done, and why it's so cool, will be explored below.
+The Fast Inverse Square Root (FISR) hack is a fascinating piece of computer science history that centers on a quicker implementation of the operation x^(1/n) (or 1 divided by the root of x). 
+
+This is a common computation needed in graphics programing for finding the distance between two vectors.  FISR manages to accurately approximate this operation by simple subtraction and multiplication, using the 'magical' number 0x5f3759df. How this is done, and why it's so cool, will be explored below.
 
 If you want to follow along and implement the code yourself, this article will be working on the basis of using python with numpy installed. If you don't have access to these tools they are easy to install and only a simple Google search away.
 
 The main function can be defined as the following
-
 ``` 
 def numpy_isqrt(number):
     threehalfs = 1.5
