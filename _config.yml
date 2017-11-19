@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            Practical Praxis
 tagline:          'Accomplished Teenager'
-description:      'Happy Birthday Mum!'
+description:      'Proof that I Exist'
 url:              https://PracticalPraxis.github.io
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
