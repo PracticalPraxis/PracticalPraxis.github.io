@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Zombie Panic Source: Modding Masterclass
+title: Zombie Panic Source
 categories: Arts
 excerpt_separator:  <!--more-->
 ---
