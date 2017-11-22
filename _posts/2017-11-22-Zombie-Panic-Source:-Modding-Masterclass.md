@@ -4,6 +4,7 @@ title: Zombie Panic Source
 categories: Arts
 excerpt_separator:  <!--more-->
 ---
+![ZP1]({{"/assets/jpg/Zombie_Panic/ZP1.jpg"}})
 
 The only gaming controversy to come close to the recent anger over micro-transactions is the gradual attempt by greedy publishers and platform owners to monetize the modding scene of their games; freely shared mods that can range from the addition of a new item or player skin, to substantial graphical tweaks, to full-blown new levels and campaigns.
 
@@ -11,7 +12,7 @@ Contained within the understandable outrage directed towards this monetization a
 
 All of these objections had their day and the push toward monetization was halted, at least for a little while. But what I feel to be the most important feature of the modding community, that was never properly identified or defended, is the creative and collaborative spirit that many wonderful communities can claim. I can think of no better product of this kind of community than Zombie Panic Source.
 
-![ZP1]({{"/assets/jpg/Zombie_Panic/ZP1.jpg"}})
+![ZP2]({{"/assets/jpg/Zombie_Panic/ZP2.jpg"}})
 
 ## Vitals
 
