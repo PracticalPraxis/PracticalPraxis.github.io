@@ -15,6 +15,8 @@ All of these objections had their day and the push toward monetization was halte
 
 ## Vitals
 
-ZPS is a completley free multiplayer game built on Valve's source engine and released in 2007
+ZPS is a completely free multiplayer game built on Valve's source engine and released in 2007
 
 On average there are 80 people playing it at any one time during the weekday, which creeps up to just over 100 on the weekends.
+
+Over the course of the last 10 years, the initial roster of 8 maps has been added to by hundreds of community made levels and updates.
