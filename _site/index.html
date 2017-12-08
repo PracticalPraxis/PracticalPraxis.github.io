@@ -171,6 +171,61 @@
   
   <article class="post-body">
     <h2 class="post-title">
+      <a href="/arts/2017/11/22/Zombie-Panic-Source-Modding-Masterclass.html">
+        Zombie Panic Source
+      </a>
+    </h2>
+    <div class="post-meta">
+  <span class="post-date">22 Nov 2017</span>
+  <span class="post-categories">
+    
+      &bull;
+
+      
+      
+      
+
+      
+        <a href="/category/Arts.html">
+          Arts
+        </a>
+      
+    
+  </span>
+</div>
+
+    
+      <p><img src="/assets/jpg/Zombie_Panic/ZP1.jpg" alt="ZP1" /></p>
+
+<p>The only gaming controversy to come close to the recent anger over micro-transactions is the gradual attempt by greedy publishers and platform owners to monetize the modding scene of their games; freely shared mods that can range from the addition of a new item or player skin, to substantial graphical tweaks, to full-blown new levels and campaigns.</p>
+
+<p>Contained within the understandable outrage directed towards this monetization attempt were many kinds of objections. Some thought that this was a sure-fire way to introduce divisions within the frequently fragile modding community by incentivising an “every man for himself” attitude that would ensure that modding would never again produce important innovations as it had before with the likes of DayZ, Counter-Strike or even the entire MOBA genre. Others felt that the essence of the effort was correct, creators should be compensated for their work, but the implementation, such as the fact that the actual creator would only ever be entitled to 40% of what the mod creator earned, was inexcusable.</p>
+
+<p>All of these objections had their day and the push toward monetization was halted, at least for a little while. But what I feel to be the most important feature of the modding community, that was never properly identified or defended, is the creative and collaborative spirit that many wonderful communities can claim. I can think of no better product of this kind of community than Zombie Panic Source.</p>
+
+<p><img src="/assets/jpg/Zombie_Panic/ZP2.jpg" alt="ZP2" /></p>
+
+<h2 id="vitals">Vitals</h2>
+
+<p>ZPS is a completely free multiplayer game built on Valve’s source engine and released in 2007</p>
+
+<p>On average there are 80 people playing it at any one time during the weekday, which creeps up to just over 100 on the weekends.</p>
+
+<p>Over the course of the last 10 years, the initial roster of 8 maps has been added to by hundreds of community made levels and updates.</p>
+
+    
+
+    
+      
+      
+      
+
+      
+    
+  </article>
+  
+  <article class="post-body">
+    <h2 class="post-title">
       <a href="/programing/2017/11/18/Fast-Inverse-Square-Root.html">
         Fast Inverse Square Root
       </a>
@@ -195,12 +250,13 @@
 </div>
 
     
-      <p>The Fast Inverse Square Root hack is an amazing piece of computer science hackery</p>
+      <p>The Fast Inverse Square Root (FISR) hack is a fascinating piece of computer science history that centers on a quicker implementation of the operation x^(1/n) (or 1 divided by the root of x).</p>
 
-<p>This article asusmes you have numpy installed. If you don’t, it’s super easy to do</p>
+<p>This is a common computation needed in graphics programing for normalizing vectors.  FISR manages to accurately approximate this operation by simple subtraction and multiplication, using the ‘magical’ hexidecimal number 0x5f3759df. How this is done, and why it’s so cool, will be explored bit by bit below.</p>
+
+<p>If you want to follow along and implement the code yourself, this article will be working on the basis of using python with numpy installed. If you don’t have access to these tools they are easy to install and only a simple Google search away.</p>
 
 <p>The main function can be defined as the following</p>
-
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def numpy_isqrt(number):
     threehalfs = 1.5
     x2 = number * 0.5
@@ -216,6 +272,39 @@
 number = float(input('Value:' ))
 print (numpy_isqrt(number))
 </code></pre></div></div>
+
+<h2 id="lines-1---3">Lines 1 - 3</h2>
+<p>Simple enough, we set up the first two variables for the Newton approximation in line 9 and assign the given number to a float ‘y’</p>
+
+<h2 id="lines-5---7">Lines 5 - 7</h2>
+
+<h3 id="floats-and-ints">Floats and Ints</h3>
+<p>We then assign that same float to a variable ‘i’, but in the int format. This is a pretty radical move, as floats and ints are in no way analogous. The float itself is made up of three distinct parts: The first single bit being the sign, the next 8 bits the exponent of the number and the remaining 23 bits the mantissa. The mantissa’s overall value is bounded between 0 and slightly less than 1.</p>
+
+<p>In action, a float is able such as 119 or -18 by having some kind of mantissa that is then modified by leveraging the exponent and sign parts of the float. The int on the other hand, just sees 32, 0 - 9 digits and takes them at face value to be representing a number in the nth base-10 column they occupy.</p>
+
+<h3 id="bitwise-shift">Bitwise shift</h3>
+<p>The conversion from float to int allows us to perform the next steps of the hack, the bitwise shift and subtraction on line 6.</p>
+
+<p>At the end of line 6 you can the bitwise shift of 1 taking place (» 1) but it’s not clear what exactly this does. Essentially a bitwise shift is a left or right push of some number’s binary representation, so if we shifted 44 once to the right it would look like this</p>
+
+<p>44 = 101100</p>
+
+<p>Right shift</p>
+
+<p>22 = 010110</p>
+
+<h3 id="0x5f3759df">0x5f3759df</h3>
+<p>With our given number shifted, we then subtract it from 0x5f3759df. We do this because, mathematically, what we are looking for can be reduced to log2 (1 + x), where x i between 0 and 1. As shown here, http://h14s.p5r.org/2012/09/0x5f3759df.html, this can be approximated by simply computing x + c, where c is some constant. By extended deduction, we can find that c = 0.0450465 is an excellent approximation. When entered into a formula too esoteric for this article (but present in the link above) this value eventually gives us the magical value of 0x5f3759df, a reliable constant for approximating 1 divided by root x.</p>
+
+<p>Finally, we convert the number back to a float and reassign y to equal it.</p>
+
+<h2 id="lines-9---13">Lines 9 - 13</h2>
+<p>As a hold over from the original code, we preform the optional step of running one Newton approximation on our modified float and finally output it.</p>
+
+<p>In the last two lines, we set up a custom input mechanism and finally tell the program to print out the result when its done.</p>
+
+<p>That’s all folks!</p>
 
     
 
@@ -254,20 +343,32 @@ print (numpy_isqrt(number))
 </div>
 
     
-      <p><img src="/assets/jpg/Theresa_Confused.jpg" alt="Leader of the World's 5th Most Powerful Nation" /></p>
+      <p>The two most prominent British political figures are currently moving along opposing trajectories; Theresa May faces a steep decline from the respected and hardy image she was projecting up until her mauling at the general election, while Jeremy Corbyn seems set to ride a wave of disruptive populism straight to No. 10.</p>
+
+<p>What these two forces together present is nothing short of a new paradigm for British politics. What should most concern us however, is whether or not this is a change for the better.</p>
+
+<p><img src="/assets/jpg/Theresa_Confused.jpg" alt="Leader of the World's 5th Most Powerful Nation" /></p>
 
 <h2 id="may-she-leave-now">May She Leave Now?</h2>
 
-<p>The trajectory of the current British government implies that we will very soon be seeing an end to Britain’s
-second ever female leader of state. Between her own personal gaffes and miscalculations, from her general election
-floundering to her poor bluff at a hard Brexit, Theresa May’s tenure will by no stretch be remembered as a successful one.</p>
+<p>The state of the current British government implies that we will very soon be seeing an end to Britain’s
+second ever female leader of state. Between her cabinet’s many personal gaffes, from Patel to Johnson, to her own general election
+floundering to the dysfunctional approach taken toward leaving the EU, Theresa May’s tenure will by no stretch of the imagination be remembered as a successful one. But what can we expect in her wake?</p>
 
 <h2 id="corbyn-pocylypse">Corbyn-pocylypse</h2>
-<p>So who will succeed her? At the current rate, the task of leading the Conservative party appears to be a poisoned chalice.
+<p>At the current rate, the task of leading the Conservative party appears to be a poisoned chalice.
 None of the senior Conservative figures, not Johnson, Gove, Leadsom or, recently, Mogg, are in any way eager to take upon themselves the imminent and highly damaging battering 
-that anyone holding the position seems set to face.</p>
+that anyone holding the position seems set to face thanks to further failures in key political arenas such as the response to the Grenfell or Brexit negotiations.</p>
 
-<p>This naturally presents a brilliant opportunity for the opposition - Jeremy Corbyn. As well as being the leader of the largest non-Conservative party in Britain, Corbyn is also nothing less than an existentialist opposition to the running of all British politics in the last 30 years.</p>
+<p>This naturally presents a brilliant opportunity for the opposition - Jeremy Corbyn. As well as being the leader of the largest non-Conservative party in Britain, Corbyn is also nothing less
+than an existentialist opposition to the running of all British politics in the last 30 years.</p>
+
+<p>As a classic British socialist, imported directly from the 70’s, Corbyn seeks to change the linear path of privatization and de-regulation that has been at the core of British politics since Thatcher and
+implement full blown socialist policies.</p>
+
+<p><img src="/assets/jpg/jfk_eyes.jpg" alt="What Would Poor JFK Think?" /></p>
+
+<p>In addition, Corbyn is likely to take a drastically different approach to the Brexit negotiations than is currently being taken by the Conservatives. The Shadow Foreign Secretary, Keir Starmer, has been forthright in stating that a Labor government would seek a transitional arrangement in talks with Brussels. Such an arrangement is anathema to the driving forces behind the vote to Leave; as they see it, any brake being applied to the leaving process will quickly morph into further stalling and eventual backtracking.</p>
 
     
 

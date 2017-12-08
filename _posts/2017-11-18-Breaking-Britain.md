@@ -28,6 +28,6 @@ than an existentialist opposition to the running of all British politics in the 
 As a classic British socialist, imported directly from the 70's, Corbyn seeks to change the linear path of privatization and de-regulation that has been at the core of British politics since Thatcher and
 implement full blown socialist policies.
 
-![What Would Poor JFK Think?]({{"/assets/jpg/jfk_Eyes.jpg"}})
+![What Would Poor JFK Think?]({{"/assets/jpg/jfk_eyes.jpg"}})
 
 In addition, Corbyn is likely to take a drastically different approach to the Brexit negotiations than is currently being taken by the Conservatives. The Shadow Foreign Secretary, Keir Starmer, has been forthright in stating that a Labor government would seek a transitional arrangement in talks with Brussels. Such an arrangement is anathema to the driving forces behind the vote to Leave; as they see it, any brake being applied to the leaving process will quickly morph into further stalling and eventual backtracking.
