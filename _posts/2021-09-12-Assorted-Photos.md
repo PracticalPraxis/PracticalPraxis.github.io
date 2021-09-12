@@ -30,7 +30,7 @@ Was really feeling this pigeon last week
 
 ![London Spirit Animal]({{"/assets/jpg/Lily_photos/London Spirit Animal.jpg"}})
 
-![Lonodn Spirit Animal 2]({{"/assets/jpg/Lily_photos/Lonodn Spirit Animal 2.jpg"}})
+![London_Spirit_Ani]({{"/assets/jpg/Lily_photos/London_Spirit_Ani.jpg"}})
 
 ![London Spirit Animal 3]({{"/assets/jpg/Lily_photos/London Spirit Animal 3.jpg"}})
 
