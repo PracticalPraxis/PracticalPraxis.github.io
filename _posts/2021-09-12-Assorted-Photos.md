@@ -18,11 +18,17 @@ Find my amateur snaps below with a minimum of commentary. Hope you enjoy them on
 
 ![Dont Eat]({{"/assets/jpg/Lily_photos/Dont Eat.jpg"}})
 
-![London Reality]({{"/assets/jpg/Lily_photos/London Reality.jpg"}})
-
 ![Vienna Graffiti]({{"/assets/jpg/Lily_photos/Vienna Graffiti.jpg"}})
 
+![London Reality]({{"/assets/jpg/Lily_photos/London Reality.jpg"}})
+
 ![Vienna Innsbruck]({{"/assets/jpg/Lily_photos/Vienna Innsbruck.jpg"}})
+
+![Edinburgh_bins]({{"/assets/jpg/Lily_photos/Edinburgh_bins.jpg"}})
+
+![edinburgh_bins_alter]({{"/assets/jpg/Lily_photos/edinburgh_bins_alter.jpg"}})
+
+![Edinburgh_bins_final]({{"/assets/jpg/Lily_photos/Edinburgh_bins_final.jpg"}})
 
 ![Graz Pipe]({{"/assets/jpg/Lily_photos/Graz Pipe.jpg"}})
 
@@ -33,6 +39,8 @@ Was really feeling this pigeon last week
 ![London_Spirit_Ani]({{"/assets/jpg/Lily_photos/London_Spirit_Ani.jpg"}})
 
 ![London Spirit Animal 3]({{"/assets/jpg/Lily_photos/London Spirit Animal 3.jpg"}})
+
+![Brighton sludge]({{"/assets/jpg/Lily_photos/Brighton sludge.jpg"}})
 
 ![Lonodn Empathy And Boris]({{"/assets/jpg/Lily_photos/Lonodn Empathy And Boris.jpg"}})
 
