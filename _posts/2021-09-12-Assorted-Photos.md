@@ -30,6 +30,12 @@ Was really feeling this pigeon last week
 
 ![London Spirit Animal]({{"/assets/jpg/Lily_photos/London Spirit Animal.jpg"}})
 
-![London Spirit Animal 2]({{"/assets/jpg/Lily_photos/London Spirit Animal 2.jpg"}})
+![Lonodn Spirit Animal 2]({{"/assets/jpg/Lily_photos/Lonodn Spirit Animal 2.jpg"}})
 
 ![London Spirit Animal 3]({{"/assets/jpg/Lily_photos/London Spirit Animal 3.jpg"}})
+
+![Lonodn Empathy And Boris]({{"/assets/jpg/Lily_photos/Lonodn Empathy And Boris.jpg"}})
+
+![Construction Comedy]({{"/assets/jpg/Lily_photos/Construction Comedy.jpg"}})
+
+![Ak Vodka]({{"/assets/jpg/Lily_photos/Ak Vodka.jpg"}})
