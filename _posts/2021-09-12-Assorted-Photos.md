@@ -4,9 +4,9 @@ title: Assorted Photos
 categories: Personal
 excerpt_separator:  <!--more-->
 ---
-To whom it may concern (Lily for now),
+To the mysterious reader it may concern (just kidding I know exactly who has access to this site),
 
-Find my amateur snaps below with a minimum of commentary. Hope you enjoy them one way or another!
+Find my amateur snaps below with a minimum of commentary. Hope you enjoy them however you might take them ;)
 
 ![Brighton Banker]({{"/assets/jpg/Lily_photos/Brighton Banker.jpg"}})
 
