@@ -8,6 +8,10 @@ To the mysterious reader it may concern (just kidding I know exactly who has acc
 
 Find my amateur snaps below with a minimum of commentary. Hope you enjoy them however you might take them ;)
 
+![Darth Shapiro]({{"/assets/jpg/Lily_photos/Darth Shapiro.jpg"}})
+
+![Hamilton 2]({{"/assets/jpg/Lily_photos/Hamilton 2.jpg"}})
+
 ![Brighton Banker]({{"/assets/jpg/Lily_photos/Brighton Banker.jpg"}})
 
 ![Brighton Disney]({{"/assets/jpg/Lily_photos/Brighton Disney.jpg"}})
