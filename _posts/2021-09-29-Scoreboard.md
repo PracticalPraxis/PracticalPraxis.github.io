@@ -4,8 +4,8 @@ title: Scoreboard
 categories: Personal
 excerpt_separator:  <!--more-->
 ---
-**Contestant:**      Aziz                                      Harry
 
-**Catchphrase:**     *This should work*                        *We must secure a future free of Enablon for our children's sake*
-
-**Score:**           $1                                        $0
+| **Contestant:** | **Catchphrase:**  | **Score:** |
+| ----------- | ----------- | ----------- |
+| Aziz  | *This should work* |  $1 |
+| Harry   | *We must secure a future free of Enablon for our children's sake*  |  $0 |
