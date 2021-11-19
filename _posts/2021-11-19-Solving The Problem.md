@@ -78,7 +78,12 @@ Toner nods slowly, unsure of this minor success.
 A hand reaches up to adjust the gentleman’s glasses on his nose as he glances around at his fellow committee members. 
 
 “In conclusion, it must be said that despite the concerns you have raised here today, we are all united in our belief that the problem is now well on its way to being solved.”
+
 * * *
+
+
+* * *
+
 “Well..it must be said after a showing like that, that we find it extremely regrettable the full extent of this calamitous issue is only being made clear to us now.”
 
 The bespectacled gentleman’s words echo louder than they had before, thanks perhaps to the padded leather of his new armchair but more likely due to the confines of the cramped space improvised within the committee’s new headquarters for visiting presentations. The rest of the committee enjoy new furnishings too as they sit now behind individual desks instead of a shared one, each chair bolted into its underlying metal frames reminiscent of school desks. Meanwhile Toner for his part, lacking a projector this time, stands next to a thick paper flipboard as he bites at his lip, considering his response.
@@ -152,6 +157,10 @@ The gentleman smiles wide as he looks around the room to meet the expectant gaze
 “In conclusion, it must be said that despite the concerns you’ve raised here today I think we are all united in our belief that the problem is now well on its way to being solved.”
 
 * * *
+
+
+* * *
+
 “Well..it must be said Mr. Hendricks, after a showing like that, that we find it unbearably regrettable that the full extent of this disastrous issue is only being made clear to us now.”
 
 The bunker, for that is what it had been declared the former kitchen would function as, was barely large enough to fit a small family let alone the motley committee that fills it now, all of them still immaculately dressed as ever, but sitting now on the various objects that litter the room: a lucky few teetering on backless wooden stools by the modest dining table at the centre of the room while the unfortunate majority must make do on pots, pans and even the mud-stained floor of the room itself.
@@ -223,6 +232,10 @@ Toner stares blankly back at him for a moment before his face suddenly twists up
 “Well then...forgiving the misgivings of our, er, unfortunately uncouth associate I must say that, despite the concerns raised here today, I can say with utmost confidence that the problem is well on its way to being solved.”
 
 * * *
+
+
+* * *
+
 “Well..it must be said after a showing like that, it is extraordinarily regrettable that the full extent of this disgraceful issue is only being made clear to us now.”
 
 There’s a soft flurry of movement throughout the whole of the courtroom as numerous upstanding citizens shift on their benches and murmur their agreement, joined in this by the familiar ambience contributed by the committee from where they sit in the juror’s box of the courtroom, which sits just a few feet away from the high podium holding aloft the bespectacled gentleman in his judge’s chair. All are united in the contempt they radiate for the bound and shackled figure sitting alone in the centre of the room, a glassy eyed, silent Toner, shackled head to toe.
