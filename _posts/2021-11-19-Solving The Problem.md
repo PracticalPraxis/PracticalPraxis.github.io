@@ -5,8 +5,6 @@ categories: Personal
 excerpt_separator:  <!--more-->
 ---
 
-<div style="text-align: justify">
-
 “Well...it must be said, after a showing like that, we find it quite regrettable that the full extent of this unfortunate issue has only been made clear to us now.”
 
 The bespectacled gentleman had only spoken after the whole room had endured several moments of silence following the conclusion Toner had made to his presentation, the forlorn faces of men, women and children frozen on the large screen taking up the wall next to him. Their haunting eyes stare out at the panel of suited men and women who are seated all along the sturdy oak desk that stretches from the left wall of this grand government meeting room all the way to the right. 
@@ -266,4 +264,4 @@ Toner is grabbed roughly, completely passive as strong hands pick him up and dra
 
 Back on his perch, the bespectacled gentleman gives a quiet sigh before turning and leaning down toward the committee with a small smile. 
 
-“I must say, despite the many concerns raised along the way, I think we are all united in saying that, at long last, the problem has finally been solved.” </div>
+“I must say, despite the many concerns raised along the way, I think we are all united in saying that, at long last, the problem has finally been solved.”
