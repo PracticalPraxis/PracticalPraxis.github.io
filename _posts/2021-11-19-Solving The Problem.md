@@ -5,7 +5,7 @@ categories: Personal
 excerpt_separator:  <!--more-->
 ---
 
-Solving The Problem
+<div style="text-align: justify">
 
 “Well...it must be said, after a showing like that, we find it quite regrettable that the full extent of this unfortunate issue has only been made clear to us now.”
 
@@ -253,4 +253,4 @@ Toner is grabbed roughly, completely passive as strong hands pick him up and dra
 
 Back on his perch, the bespectacled gentleman gives a quiet sigh before turning and leaning down toward the committee with a small smile. 
 
-“I must say, despite the many concerns raised along the way, I think we are all united in saying that, at long last, the problem has finally been solved.”
+“I must say, despite the many concerns raised along the way, I think we are all united in saying that, at long last, the problem has finally been solved.” </div>
